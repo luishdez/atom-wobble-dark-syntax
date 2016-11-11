@@ -1,4 +1,4 @@
-# atom-base16-wobblecode-dark-syntax theme
+# atom-wobble-dark-syntax theme
 
 A short description of your theme.
 
