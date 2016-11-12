@@ -1,8 +1,9 @@
 @import "syntax-variables";
-@import "editor.less";
+@import "editor";
+@import "syntax-css";
 
 .comment {
-  color: #696969; # @light-gray;
+  color: #696969;
 }
 
 .keyword {
@@ -30,14 +31,14 @@
 }
 
 .constant {
-  color: @orange;
+  color: #fff;
 
   &.character.escape {
     color: @cyan;
   }
 
   &.numeric {
-    color: @orange;
+    color: #ff8633;
   }
 
   &.other.color {
@@ -157,12 +158,12 @@
   }
 
   &.name.tag {
-    color: #ccc47f; # @red
+    color: #ccc47f;
     text-decoration: none;
   }
 
   &.other.attribute-name {
-    color: @orange;
+    color: #ffffff;
 
     &.id {
       color: @blue;
