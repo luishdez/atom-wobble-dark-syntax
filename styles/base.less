@@ -3,11 +3,11 @@
 @import "plugins";
 
 .comment {
-  color: #696969;
+  color: #67696d;
 }
 
 .keyword {
-  color: @purple;
+  color: #beb3f5;
 
   &.control {
     color: @purple;
@@ -27,7 +27,7 @@
 }
 
 .storage {
-  color: @purple;
+  color: #beb3f5;
 }
 
 .constant {
@@ -68,8 +68,7 @@
 }
 
 .string {
-  color: #adadad;
-
+  color: #c9ce54;
 
   &.regexp {
     color: @cyan;
@@ -121,7 +120,7 @@
 
 .support {
   &.class {
-    color: @light-orange;
+    color: #beb3f5;
   }
 
   &.function  {
@@ -132,8 +131,14 @@
     }
   }
 
+  &.type {
+    &.property-name.css {
+      color: #e3e6e3;
+    }
+  }
+
   &.other.namespace.php {
-    color: #696969;
+    color: #949494;
   }
 }
 
@@ -141,16 +146,18 @@
   &.name.function {
     color: #fff;
   }
+
   &.name.type {
-    color: @light-orange;
-    text-decoration: underline;
+    color: #949494;
+    text-decoration: none;
   }
 
   &.other.inherited-class {
     color: @green;
   }
+
   &.name.class, &.name.type.class {
-    color: @light-orange;
+    color: #fff;
   }
 
   &.name.section {
