@@ -1,6 +1,5 @@
 @import "syntax-variables";
 @import "editor";
-@import "syntax-css";
 
 .comment {
   color: #696969;
@@ -51,7 +50,7 @@
 }
 
 .variable {
-  color: @red;
+  color: #a2a2a2;
 
   &.interpolation {
     color: darken(@red, 10%);
@@ -163,7 +162,7 @@
   }
 
   &.other.attribute-name {
-    color: #ffffff;
+    color: #beb3f5;
 
     &.id {
       color: @blue;
@@ -243,4 +242,8 @@
   &.heading {
     color: @green;
   }
+}
+
+.support.type.property-name.css {
+  color: #e3e6e3;
 }
